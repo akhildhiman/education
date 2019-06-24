@@ -1,0 +1,80 @@
+.contact{
+    
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    
+h6{
+    color: $teal;
+    font-weight: 900;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+h1{
+    font-weight: 900;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+}
+.contact_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+        .contact_email{
+        padding: 2rem 0;
+
+        input{
+            display: inline;
+            width: 95%;
+            font-size: 1rem;
+            padding: .6rem;
+            margin: .4rem 0;
+            
+        }
+        textarea{
+            width: 95%;
+            font-size: 1rem;
+            padding: .6rem;
+        }
+        .contact_btn{
+            width: 7rem;
+            font-weight: 700;
+            font-size: 1.2rem;
+            height: 3rem;
+            color: $white;
+            background: $gray-dark;
+            border-radius: .3rem;
+            border: none;
+                   
+        }
+    }
+    .contact_add, .contact_ph {
+        padding: 0 0 2rem 0;
+        h5{
+            padding: 0 0 2rem 0;
+        }
+    } 
+    .contact_mail{
+        h5{
+            padding: 0 0 1rem 0; 
+        }
+        .contact_icons{
+            padding: 1rem 0;
+            .home{
+                color: greenyellow;
+                padding-right: .5rem;
+            }
+            
+        }
+    }   
+   
+}
+@media all and (max-width:768px){
+    .contact_grid{
+        grid-template-columns: 1fr;
+    }
+}
+.map_map{
+    .map_location{
+        padding: 2rem 0 1rem 0;
+    }
+}

@@ -1,0 +1,82 @@
+// Root Element
+html {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+// Heading Elements
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+
+// Paragraph Elements
+p {
+    font-size: 1rem;
+}
+
+// Padding Top-Bottom
+.padding {
+    padding: 1.5rem 0;
+}
+
+// Align items
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+
+// Font Awesome Icons
+// <i class="fab fa-facebook-f"></i>
+// <i class="fab fa-twitter"></i>
+// <i class="fab fa-linkedin-in"></i>
+// <i class="fab fa-google-plus-g"></i>
+// <i class="fas fa-paint-brush"></i>
+// <i class="fas fa-camera-retro"></i>
+// <i class="far fa-clone"></i>
+// <i class="fas fa-laptop"></i>
+
+// FlexBox Classes
+.flex {
+    display:flex;
+}
+.flex-center {
+    justify-content: center;
+}
+.flex-between {
+    justify-content: space-between;
+}
+
+// Grid Classes
+.grid {
+    display: grid;
+}
